@@ -1,0 +1,176 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#navbar{
+    background-color: #0d1b2a;
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+#navlogo{
+    height: 70px;
+    width: 100px;
+    background-image: url(nft-high-resolution-logo\ \(2\).png);
+    background-size: cover;
+}
+
+#navlogoname{
+    font-size: 20px;
+    margin-top: 25px;
+    color: white;
+}
+
+#Signoutbutton{
+    background-color: #1B263B;
+    color: white;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+             /* box2 */
+
+#searchbar{
+    margin-top: 23.5px; 
+}
+#search{
+    font-size: 18px;
+    height: 25px;
+    width: 900px;
+}
+
+.navheadings{
+    font-size: 20px;
+    margin-top: 25px;
+    color: white;
+    text-decoration: none;
+}
+#cart{
+    color: white;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+             /* footer */
+
+#last{
+    height: 375px;
+    display: flex;
+    width: 100%;
+    background-color: #415A77;
+}
+            
+#footlogo{
+    margin-left: 200px;
+    background-image: url(nft-high-resolution-logo\ \(3\).png);
+    background-size: cover;
+    height: 175px;
+    width: 200px;
+}
+            
+#footerp{
+    margin-top: 175px;
+    margin-left: 25px;
+    height: 100px;
+    width: 400px;
+}
+            
+#tradeandswap{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-top: 50px;
+    padding-left: 450px;
+}
+            
+.tradeheadings{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+            
+#marketplace{
+    padding-top: 50px;
+    padding-left: 50px; 
+    display: flex;
+    flex-direction: column;
+}
+            
+.marketplaceheadings{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+            
+            
+                                        /* content */
+            
+            
+#content{
+    width: 100%;
+    background-color: #1B263B;
+    display: flex;
+}
+
+#mainimage{
+    height: 500px;
+    width: 100%;
+    background-image: url(trendingimage1.avif);
+    background-size: cover;
+}
+#mainimage {
+    border-image: fill 0 linear-gradient(#0001, #000);
+}
+#mainimageintro{
+    position: absolute;
+    top: 430px;
+    height: 100px;
+    width: 100%;
+    color: white;
+}
+#mainheading{
+    font-size: 35px;
+    margin-right: 800px;
+}
+#mainsubheadings{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+#sideheading{
+    font-size: 25px;
+    margin-right: 800px;
+}
+#mainsubheading2{
+    color: grey;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#subintro{
+    padding-top: 10px;
+    height: 300px;
+    background-color: #1B263B;
+    color: white;
+}
+#contentp2{
+    color: grey;
+}
+#buycontainer{
+    display: flex;
+    justify-content: center;
+}
+.buyoptions{
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;   
+    font-size: 20px;
+    background-color: #0d1b2a;
+    color: aliceblue;
+}
+            

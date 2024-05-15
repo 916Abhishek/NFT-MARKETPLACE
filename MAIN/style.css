@@ -1,0 +1,403 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+#navbar{
+    background-color: #0d1b2a;
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+#navlogo{
+    height: 70px;
+    width: 100px;
+    background-image: url(nft-high-resolution-logo\ \(2\).png);
+    background-size: cover;
+}
+
+#navlogoname{
+    font-size: 20px;
+    margin-top: 25px;
+    color: white;
+}
+
+#Signoutbutton{
+    background-color: #1B263B;
+    color: white;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+             /* box2 */
+
+#searchbar{
+    margin-top: 23.5px; 
+}
+#search{
+    font-size: 18px;
+    height: 25px;
+    width: 900px;
+}
+
+.navheadings{
+    font-size: 20px;
+    margin-top: 25px;
+    color: white;
+    text-decoration: none;
+}
+#cart{
+    color: white;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+             /* footer */
+
+#last{
+    height: 375px;
+    display: flex;
+    width: 100%;
+    background-color: #415A77;
+}
+
+#footlogo{
+    margin-left: 200px;
+    background-image: url(nft-high-resolution-logo\ \(3\).png);
+    background-size: cover;
+    height: 175px;
+    width: 200px;
+}
+
+p{
+    margin-top: 175px;
+    margin-left: 25px;
+    height: 100px;
+    width: 400px;
+}
+
+#tradeandswap{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-top: 50px;
+    padding-left: 450px;
+}
+
+.tradeheadings{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+#marketplace{
+    padding-top: 50px;
+    padding-left: 50px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.marketplaceheadings{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+
+                            /* content */
+
+
+#content{
+    width: 100%;
+    background-color: #1B263B;
+    display: flex;
+}
+
+#trade{
+    padding-top: 200px;
+    padding-left: 415px;
+    color: white;
+    font-size: 100px;
+}
+#as{
+    color: white;
+    font-size: 75px;
+    padding-left: 220px;
+}
+#you{
+    color: cadetblue;
+    font-size: 95px;
+    padding-left: 25px;
+}
+#wish{
+    color: white;
+    font-size: 75px;
+    padding-left: 25px;
+}
+#contentsubpart{
+    color: cadetblue;
+    padding-left: 220px;
+    padding-top: 10px;
+    font-size: 35px;
+}
+#contentlogo{
+    background-image: url(contentlogo.png);
+    background-size: cover;
+    height: 150px;
+    width: 600px;
+    padding-top: 400px;
+}
+
+
+                              /* main content */
+
+#maincontent{
+    height: 900px;
+    width: 100%;
+    background-color: #1B263B;
+}
+
+
+                             /* Trending */
+#trendingimage{
+    display: flex;
+}
+#trending{
+    height: 300px;
+    width: 100%;
+    background-color: #1B263B;
+}
+
+#trendingheading{
+    margin-left: 50px;
+    color: white;
+    font-size: 35px;
+}
+
+#trendingimage1{
+    transition: 0.5s all ease-in-out;
+    margin-left: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    background-image: url(trendingimage1.avif);
+    background-size: cover;
+}
+#trendingimage1:hover{
+    transform: scale(1.1);
+}
+
+#timage1intro{
+    color: white;
+    height: 100px;
+    width: 300px;
+    background-color: #0d1b2a;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 60px;
+}
+
+.timage1heading{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.t1floor{
+    margin-left: 15px;
+}
+.t1vol{
+    margin-left: 125px;
+}
+.t1floordetails{
+    margin-left: 15px;
+}
+.t1voldetails{
+    margin-left: 100px;
+}
+#timage1intro:hover{
+    transition: scale(1.1);
+}
+#timage2{
+    transition: 0.5s all ease-in-out;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 30px;
+    margin-left: 60px;
+    background-image: url(trending2image2.avif);
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+}
+#timage2:hover{
+    transform: scale(1.1);
+}
+
+#timage3{
+    transition: 0.5s all ease-in-out;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 30px;
+    margin-left: 60px;
+    background-image: url(trendingimage3.avif);
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+}
+#timage3:hover{
+    transform: scale(1.1);
+}
+
+#timage4{
+    transition: 0.5s all ease-in-out;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 30px;
+    margin-left: 60px;
+    background-image: url(trendingimage4.avif);
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+}
+#trendingimagefirst{
+    transition: 0.5s all ease-in-out;
+}
+#trendingimagefirst:hover{
+    transform: scale(1.1);
+}
+#trendingimagesecond{
+    transition: 0.5s all ease-in-out;
+}
+#trendingimagesecond:hover{
+    transform: scale(1.1);
+}
+#trendingimagethird{
+    transition: 0.5s all ease-in-out;
+}
+#trendingimagethird:hover{
+    transform: scale(1.1);
+}
+#trendingimage4{
+    transition: 0.5s all ease-in-out;
+}
+#trendingimage4:hover{
+    transform: scale(1.1);
+}
+#timage4:hover{
+    transform: scale(1.1);
+}
+
+                         /* Art */
+#Art{
+    margin-top: 100px;
+}
+
+#artimage1{
+    transition: 0.5s all ease-in-out;
+    margin-left: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    background-image: url(artimage1main.avif);
+    background-size: cover;
+}
+#artimage1:hover{
+    transform: scale(1.1);
+}
+#artimagefirst{
+    transition: 0.5s all ease-in-out;
+}
+#artimagefirst:hover{
+    transform: scale(1.1);
+}
+
+#artimagesecond{
+    transition: 0.5s all ease-in-out;
+}
+#artimagesecond:hover{
+    transform: scale(1.1);
+}
+#artimagethird{
+    transition: 0.5s all ease-in-out;
+}
+#artimagethird:hover{
+    transform: scale(1.1);
+}
+#artimagefour{
+    transition: 0.5s all ease-in-out;
+}
+#artimagefour:hover{
+    transform: scale(1.1);
+}
+#artimage2{
+    transition: 0.5s all ease-in-out;
+    margin-left: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    background-image: url(artimage2.avif);
+    background-size: cover;
+}
+#artimage2:hover{
+    transform: scale(1.1);
+}
+
+#artimage3{
+    transition: 0.5s all ease-in-out;
+    margin-left: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    background-image: url(artimage3.avif);
+    background-size: cover;
+}
+#artimage3:hover{
+    transform: scale(1.1);
+}
+
+#artimage4{
+    transition: 0.5s all ease-in-out;
+    margin-left: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    background-image: url(artimage4.avif);
+    background-size: cover;
+}
+#artimage4:hover{
+    transform: scale(1.1);
+}
